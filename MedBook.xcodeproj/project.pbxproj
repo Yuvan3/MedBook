@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E69C7772A84A6AB0095DEB5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EC227D92A834ACE001DA805 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		1EC227DB2A834B16001DA805 /* CountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
 		1EE78DD82A828E8600EEAAAF /* MedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,7 +41,6 @@
 		1EE78DE52A828E8600EEAAAF /* MedBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedBook.xcdatamodel; sourceTree = "<group>"; };
 		1EE78DE72A828E8700EEAAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE78DEA2A828E8700EEAAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1EE78DEC2A828E8700EEAAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE78DF42A828FFC00EEAAAF /* Degular-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Medium.ttf"; sourceTree = "<group>"; };
 		1EE78DF52A828FFC00EEAAAF /* Degular-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Regular.ttf"; sourceTree = "<group>"; };
 		1EE78DF62A828FFC00EEAAAF /* Degular-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Semibold.ttf"; sourceTree = "<group>"; };
@@ -92,12 +92,12 @@
 		1EE78DDA2A828E8600EEAAAF /* MedBook */ = {
 			isa = PBXGroup;
 			children = (
+				1EE78DF22A828FB400EEAAAF /* Resources */,
 				1EC227D82A834AB7001DA805 /* NetworkManager */,
 				1EE78E1F2A83401C00EEAAAF /* DataManager */,
-				1EE78DF22A828FB400EEAAAF /* Resources */,
 				1EE78E1A2A833F1100EEAAAF /* Model */,
 				1EE78E1B2A833F1800EEAAAF /* View */,
-				1EE78DEC2A828E8700EEAAAF /* Info.plist */,
+				1E69C7772A84A6AB0095DEB5 /* Info.plist */,
 			);
 			path = MedBook;
 			sourceTree = "<group>";
